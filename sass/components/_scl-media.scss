@@ -1,0 +1,35 @@
+.scl-media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.scl-media__list + .scl-media__list {
+  margin-left: 10px;
+}
+.scl-media__link {
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scl-media__icon {
+  fill: currentColor;
+}
+.scl-media__link:hover,
+.scl-media__link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.scl-media__link:hover .scl-media__icon {
+  fill: currentColor;
+}
