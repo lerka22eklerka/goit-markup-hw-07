@@ -24,12 +24,26 @@
 .scl-media__icon {
   fill: currentColor;
 }
+
+
+.scl-media__link:hover .scl-media__icon {
+  fill: currentColor;
+}
+
+.public-pages .scl-media__link {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+}
+
+.public-pages .scl-media__icon {
+  fill: #ffffff;
+}
+
 .scl-media__link:hover,
 .scl-media__link:focus {
   background-color: #2196f3;
   color: #ffffff;
-}
-
-.scl-media__link:hover .scl-media__icon {
-  fill: currentColor;
 }
