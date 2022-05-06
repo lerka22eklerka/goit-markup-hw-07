@@ -5,13 +5,13 @@
   text-decoration: none;
   margin-right: 50px;
   display: block;
-    &__span {
-    color: #2196f3;
-  }
-    &__studio {
-    color: white;
-  }
 }
+.logo__span {
+  color: $base-color;
+  }
+.logo__studio {
+  color: $title-light;
+  }
 .footer {
   .logo {
   margin-bottom: 20px;

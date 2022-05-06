@@ -5,11 +5,12 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-    &__icon {
+    
+}
+.contacts__icon {
     display: inline-block;
     fill: currentColor;
     margin-right: 10px;
-}
 }
 
 .contacts__list {
@@ -18,8 +19,6 @@
     margin-left: 0px;
   }
 }
-
-
 .contacts__link {
   display: flex;
   align-items: center;
