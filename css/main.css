@@ -748,21 +748,6 @@ img {
   outline: none;
 }
 
-.modal-input:focus + .input-name-svg,
-.modal-input:hover + .input-name-svg {
-  fill: #2196f3;
-}
-
-.modal-input:focus + .input-phone-svg,
-.modal-input:hover + .input-phone-svg {
-  fill: #2196f3;
-}
-
-.modal-input:focus + .input-mail-svg,
-.modal-input:hover + .input-mail-svg {
-  fill: #2196f3;
-}
-
 .icon-wrap {
   display: flex;
   align-items: center;
@@ -777,6 +762,17 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus + .input-name-svg,
+.modal-input:hover + .input-name-svg, .modal-input:focus +
+.input-phone-svg,
+.modal-input:hover +
+.input-phone-svg, .modal-input:focus +
+.input-mail-svg,
+.modal-input:hover +
+.input-mail-svg {
+  fill: #2196f3;
 }
 
 .form-field {
@@ -857,10 +853,6 @@ img {
   border: none;
 }
 
-.contract-check:checked + .checkbox-text .icon-contract .icon-check {
-  fill: #ffffff;
-}
-
 .contract-check:focus + .checkbox-text .icon-contract,
 .contract-check:hover + .checkbox-text .icon-contract {
   border: 2px solid #2196f3;
@@ -873,6 +865,10 @@ img {
 
 .icon-check {
   fill: transparent;
+}
+
+.contract-check:checked + .checkbox-text .icon-contract .icon-check {
+  fill: #ffffff;
 }
 
 .checkbox-link {
