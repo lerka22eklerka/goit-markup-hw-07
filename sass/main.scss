@@ -1,4 +1,8 @@
 @import "./utils/_vars.scss";
+@import "./utils/mixins";
+@import "./base/settings";
+@import "./base/hidden";
+@import "./base/user-title";
 @import "./components/_header.scss";
 @import "./components/_logo.scss";
 @import "./components/_navigation.scss";
@@ -6,12 +10,10 @@
 @import "./components/_hero.scss";
 @import "./components/_button.scss";
 @import "./components/traits";
-@import "./components/our-deals";
 @import "./components/our-work";
 @import "./components/special-team";
 @import "./components/personality";
 @import "./components/scl-media";
-@import "./components/clients";
 @import "./components/business-company";
 @import "./components/footer";
 @import "./components/address";

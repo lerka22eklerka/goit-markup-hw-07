@@ -2,11 +2,8 @@
   margin-left: 70px;
 }
 .public-pages__title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 1.1);
   text-transform: uppercase;
-  color: #ffffff;
+  color: $title-light;
   margin-bottom: 20px;
 }

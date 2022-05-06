@@ -13,33 +13,28 @@
   padding-bottom: 30px;
 
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: #212121;
+  @include font(500, 14px, 1.1, 0.02em);
+  color: $base-color;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: $accent-color;
+  }
 }
 
 .navigation__current {
   position: relative;
-  color: #2196f3;
-}
-
-.navigation__current::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #2196f3;
-}
-
-.navigation__link:hover,
-.navigation__link:focus {
-  color: #2196f3;
+  color: $accent-color;
+    &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $accent-color;
+  }
 }

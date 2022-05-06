@@ -15,35 +15,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #afb1b8;
+  color: $icon-color;
   transition-property: background-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.scl-media__icon {
-  fill: currentColor;
-}
-
-
-.scl-media__link:hover .scl-media__icon {
-  fill: currentColor;
-}
-
-.public-pages .scl-media__link {
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+    color: $title-light;
+    }
+    .public-pages & {
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
   );
+  }
 }
-
-.public-pages .scl-media__icon {
-  fill: #ffffff;
-}
-
-.scl-media__link:hover,
-.scl-media__link:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+.scl-media__icon {
+  fill: currentColor;
+    .public-pages & {
+    fill: $title-light;
+  }
+    .scl-media__link:hover & {
+    fill: currentColor;
+  }
 }

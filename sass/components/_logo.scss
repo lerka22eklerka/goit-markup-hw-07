@@ -1,25 +1,20 @@
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  color: #212121;
+  @include font(700, 26px, 1.2);
+  color: $base-color;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
   margin-right: 50px;
   display: block;
+    &__span {
+    color: #2196f3;
+  }
+    &__studio {
+    color: white;
+  }
 }
-
-.logo__span {
-  color: #2196f3;
-}
-
-.footer .logo {
+.footer {
+  .logo {
   margin-bottom: 20px;
   margin-right: 0;
 }
-
-.logo__studio {
-  color: white;
 }

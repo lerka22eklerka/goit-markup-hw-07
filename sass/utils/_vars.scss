@@ -1,55 +1,20 @@
+$base-color: #212121;
+$line-header: #ececec;
+$accent-color: #2196f3;
+$contact-color:#757575;
+$bg-color-dark: #2f303a;
+$bg-color-light: #f5f4fa;
+$title-light: #ffffff;
+$btn-accent-color: #188ce8;
+$icon-color: #afb1b8;
+$bg-footer: #2f303a;
+$link-color: #ffffff99;
+$bg-text: rgba(33, 150, 243, 0.9);
+$border-color: #eeeeee;
+$bg-backdrop: rgba(0, 0, 0, 0.2);
+$modal-input-border: rgba(33, 33, 33, 0.2);
 
 
 
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: #757575;
-  min-width: 1200px;
-}
-
-h1,
-h2,
-h3,
-p,
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.features {
-  padding-bottom: 0;
-}
 
